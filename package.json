@@ -32,5 +32,8 @@
     "presets": [
       "env"
     ]
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.2"
   }
 }
