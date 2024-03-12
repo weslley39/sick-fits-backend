@@ -44,7 +44,7 @@ server.start(
       credentials: true,
       origin: process.env.FRONTEND_URL,
     },
-    port: process.env.PORT || 4000,
+    port: process.env.PORT || 3000,
   },
   deets => {
     console.log(`The magic happens on port http://localhost:${deets.port}`);
